@@ -1,3 +1,13 @@
+@font-face{
+    font-family: title;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face{
+    font-family: txt;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
 body{
     margin: 0;
 }
@@ -8,8 +18,13 @@ header{
 }
 
 h1{
-    text-transform: capitalize;
+    font-family: title;
+    text-transform: uppercase;
     margin: 0;
+}
+
+p{
+    font-family: txt;
 }
 
 img{
@@ -24,4 +39,8 @@ img{
 
 hr{
     color: gray;
+}
+
+section{
+    margin: 20px;
 }
