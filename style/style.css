@@ -1,6 +1,27 @@
 body{
     margin: 0;
 }
+
 header{
     background-color: lightgray;
+    height: 190px;
+}
+
+h1{
+    text-transform: capitalize;
+    margin: 0;
+}
+
+img{
+    float: left;
+    margin: 20px
+}
+
+#bio{
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+hr{
+    color: gray;
 }
