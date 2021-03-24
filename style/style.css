@@ -23,6 +23,12 @@ h1{
     margin: 0;
 }
 
+h2{
+    font-family: title;
+    text-transform: uppercase;
+    margin: 0;
+}
+
 p{
     font-family: txt;
 }
